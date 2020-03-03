@@ -23,3 +23,15 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
+  form  {
+      background-color: steelblue;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  h4{
+      color: steelblue;
+      size: sml;
+  }
