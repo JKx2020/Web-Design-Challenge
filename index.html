@@ -30,7 +30,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
             <!-- add title to the left on the bar -->
-            <a class="navbar-brand" href="#"><i class="fas fa-globe-americas"></i> You Need a Vacation</a>
+            <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"><i class="fas fa-globe-americas"></i> You Need a Vacation</a>
 
             <!--drop down toggle button-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,25 +38,16 @@
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-nav ml-auto">
 
-                <!-- adds a Home link to the bar -->
-                <li class="nav-item active">
-                  <a class="nav-link" href="http://127.0.0.1:5500/index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="http://127.0.0.1:5500/data.html">Weather Data</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/compares.html">Vacation Summary</a>
-                  </li>
+                
             
                  <!--add nav bar drop-down -->
                 
-                <li class="nav-item dropdown show right">
-                  <a class="nav-link dropdown-toggle navbar-right" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vacation Planning<span class="caret"></span></a>
+                <li class="nav-item dropdown mr-auto">
+                  <a class="nav-link dropdown-toggle mr-auto" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vacation Planning<span class="caret"></span></a>
 
-                  <div class="dropdown-menu navbar-right" aria-labelledby="navbarDropdownMenuLink">
+                  <div class="dropdown-menu mr-auto" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="http://127.0.0.1:5500/fig1.html"> Step 1</a>
 
                     <a class="dropdown-item" href="http://127.0.0.1:5500/fig2.html">Step 2</a>
@@ -65,10 +56,17 @@
 
                     <a class="dropdown-item" href="http://127.0.0.1:5500/fig4.html">Step 4</a>
 
-
-                  </div>
-                
+                  </div>             
                 </li>
+
+                <!-- adds links to the bar -->
+
+                <li class="nav-item mr-auto">
+                  <a class="nav-link mr-auto" href="http://127.0.0.1:5500/data.html">Weather Data</a>
+                </li>
+                <li class="nav-item mr-auto">
+                    <a class="nav-link mr-auto" href="http://127.0.0.1:5500/compares.html">Vacation Summary</a>
+                  </li>
 
               </ul>
 
